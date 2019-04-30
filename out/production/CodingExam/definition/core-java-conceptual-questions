@@ -2,45 +2,131 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-
+A programming language is a formal language, which comprises a set of instructions that produce various kinds of output.
+Programming languages are used in computer programming to implement algorithms.
 
 
 
 What jdk contains or composed of and define each components?
 A.
-
-
-
-
+The JDK is a software package that contains a variety of tools and utilities that make it possible to develop, package,
+monitor and deploy applications that build for any standard Java platform, including Java Platform, Standard Edition
+(Java SE); Java Platform, Micro Edition (Java ME); and Java Platform,
+Enterprise Edition (Java EE).
+The JDK also contains a number of tools for inspecting the runtime behavior of a JVM,
+including Java Mission Control (JMC), Java Flight Recorder (JFR) and VisualVM.
 
 What is IDE?
 A.
+An integrated development environment (IDE) is a software suite that consolidates basic tools required to write
+and test software.
+
 What are the IDEs available in the market to support java?
+A.
+The NetBeans IDE supports the development of all Java application types (Java SE, JavaFX, web, EJB and
+mobile applications) out of the box. NetBeans is modular in design. The NetBeans IDE can be used to develop in Java,
+ but also supports other languages.
+These include PHP, C/C++, and HTML5.
 Explain the entire java life cycle.
+
 what is class?
+A.
+A class, in the context of Java, are templates that are used to create objects,
+and to define object data types and methods.
+
 What is object?
+A.
+A Java object is a combination of data and procedures working on the available data.
+
 What is the entry point of an application?
+A.
+The main method
+public static void main(String[])
+
 Why main is static?
+A.
+static allows main() to be called before an object of the class has been created.
+
 Which class is the superclass of all classes?
+A.
+Object
+
 What is difference between path and classpath variables?
+A.
+The main difference between PATH and CLASSPATH is that PATH is an environment variable which is used to locate JDK
+binaries like "java" or "javac" command used to run java program and compile java source file.
+
 What is the difference between an Interface and Abstract class?
+A.
+Main difference is methods of a Java interface are implicitly abstract and cannot have implementations.
+
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.
+Abstract classes and interfaces are the two main building blocks of most Java APIs. In this article,
+We will touch down the most glaring differences between interfaces and abstract classes in Java.
 what is Access Specifier?
+A.
+The class String which we often use to store text is a part of the java.lang package.
+Access specifiers are used to control the visibility of members like classes, variables and methods.
+There are three access specifiers: public, private and protected.
 What is OOP ? Define each feature of java OOP.
+A.
+OOP concepts in Java are the main ideas behind Java's Object Oriented Programming.
+They are an abstraction, encapsulation, inheritance, and polymorphism.
+Basically, Java OOP concepts let us create working methods and variables, then re-use all or part of them without compromising security.
 What is Java Package and which package is imported by default?
+A.
+three packages are imported by default for each source file. First, the package with no name.
+Second, the java.lang package.
+And third, the current package (the package in which the current file is defined).
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
+
 What is static keyword in java? How it has been used in variables and methods ?
+A.
+The static keyword in Java means that the variable or function is shared between all instances of that class as it
+belongs to the type, not the actual objects themselves.
+So if you have a variable: private static int i = 0; and you increment it ( i++ ) in one instance, the change will be reflected in all instances.
 What is final and how it has been used variables and methods?
+A.
+final keyword is used in different contexts. First of all, final is a non-access modifier applicable only to a variable,
+a method or a class.Following are different contexts where final is used.
 What is final, finally and finalize?
+A.
+Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+Finally is used to place important code, it will be executed whether exception is handled or not.
+Finalize is used to perform clean up processing just before object is garbage collected.
+2) Final is a keyword.
 What is a constructor ?
+A constructor in Java is a block of code similar to a method that's called when an instance of an object is created.
+Here are the key differences between a constructor and a method: A constructor doesn't have a return type.
+Unlike methods, constructors are not considered members of a class.
 Can we have multiple constructors in a class?
+A.
+A class can have multiple constructors, as long as their signature (the parameters they take) are not the same.
+You can define as many constructors as you need.
+When a Java class contains multiple constructors, we say that the constructor is overloaded
 If we don't have a constructor declared, what is called during the object creation?
 What is "this" keyword in java ?
+A.
+this keyword in java can be used inside the Method or constructor of Class.
+It(this) works as a reference to the current Object, whose Method or constructor is being invoked.
+This keyword can be used to refer to any member of the current object from within an
+instance Method or a constructor.
 What is "super" keyword in java? How many possible way can you use?
+A.
+The super keyword in Java is a reference variable which is used to refer immediate parent class object.
+Whenever you create the instance of subclass, an instance of parent class is created implicitly which is
+referred by super reference variable.
 What is JVM stand for ?
+A.
+JVM is a engine that provides runtime environment to drive the Java Code or applications.
+It converts Java bytecode into machines language. JVM is a part of JRE(Java Run Environment).
+It stands for Java Virtual Machine.
+In other programming languages, the compiler produces machine code for a particular system.
 Is JVM platform independent?
 What version of java are you using?
 What is JAR stand for ?

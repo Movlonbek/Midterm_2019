@@ -2,33 +2,128 @@ Please answer the below Data Structure Questions:
 
 why do we need data structure?
 A.
-
+The data structures provided by the Java utility package are very powerful and perform a wide range of functions.
 
 What are the various operations that can be performed on different Data Structures?
+A.
+Data type is a way to classify various types of data such as integer, string, etc.
+
 List out the areas in which data structures are applied extensively?
+
 what is an Array?
+A.
+Array is a collection of similar type of elements that have a contiguous memory location.
+Java array is an object which contains elements of a similar data type.
 what is the difference between the Array and ArrayList?
+A.
+Major difference between Array and ArrayList in Java is that Array is a fixed length data structure while
+ArrayList is a variable length Collection class.
 what is LinkedList?
+A.
+Java LinkedList class uses a doubly linked list to store the elements.
+It provides a linked-list data structure.
 How is an Array different from Linked List?
+A.
+An array is the data structure that contains a collection of similar type data elements whereas the Linked list is
+considered as non-primitive data structure contains a collection of unordered linked elements known as nodes.
 what is queue?
+A.
+The Queue interface is available in java.util package and extends the Collection interface.
 what is stack?
+A.
+A Stack is a Last In First Out (LIFO) data structure.
+It supports two basic operations called push and pop.
 what is FIFO and LIFO?
+A.
+FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is
+processed first and the newest element is processed last.
+LIFO is an abbreviation for Last in, first out is same as fist in, last out (FILO).
+
 what is the order of complexity?
+A.
+Time Complexity of algorithm/code is not equal to the actual time required to execute a particular code but the number
+of times a statement executes.
 what is the best case to search an element from an array?
+A.
+Binary search in a sorted array.
+One of the most important uses of binary search is to find an item in a sorted array.
 what is the worst case to search an element from an array?
+A.
+The worst case to search for an element is to iterate through the entire array and compare each value of that array
+with the target element.
+When a match is found, we may break out of the loop if we are sure that there exist no duplicate values.
+
 what is tree in data structure?
+A.
+One reason to use trees might be because you want to store information that naturally forms a hierarchy.
+
 what is graph in data structure?
+A.
+A graph is a data structure for storing connected data like a network of people on a social media platform.
+A graph consists of vertices and edges.
+A vertex represents the entity (for example, people) and an edge represents the relationship between entities (for example, a person's friendships).
+
 what is the difference between the HashTable and HashMap?
+A.
+There are several differences between HashMap and Hashtable in Java:
+Hashtable is synchronized, whereas HashMap is not.
+This makes HashMap better for non-threaded applications, as unsynchronized Objects typically perform better than
+synchronized ones.
+HashMap allows one null key and any number of null values.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
+A.
+HashMap in Java works on hashing principle. When we call put method, hashcode() method of the key object is called so
+that hash function of the map can find a bucket location to store value object,
+which is actually an index of the internal array, known as the table.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.
+The index of an array is an integer value that has value in interval [0, n-1], where n is the size of the array.
+If a request for a negative or an index greater than or equal to size of array is made,
+then the JAVA throws a ArrayIndexOutOfBounds Exception.
+This is unlike C/C++ where no index of bound check is done.
+
 What are the different ways of copying an array into another array?
+A.
+There are mainly four different ways to copy all elements of one array into another array in Java.
+1. Manually
+2. Arrays.copyOf()
+3. System.arraycopy()
+4. Object.clone()
+
 What is difference between an array and a linked list?
+A.
+The major difference between Array and Linked list regards to their structure.
+Arrays are index based data structure where each element associated with an index.
 What is DFS and BFS?
+A.
+A Tree is typically traversed in two ways:
+
+Breadth First Traversal (Or Level Order Traversal)
+Depth First Traversals
+Inorder Traversal (Left-Root-Right)
+Preorder Traversal (Root-Left-Right)
+Postorder Traversal (Left-Right-Root)
 What is Recursion?
+A.
+Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem.
+A method that uses this technique is recursive.
+Many programming problems can be solved only by recursion, and some problems that can be solved by
+other techniques are better solved by recursion.
+
 What are linear and non linear data Structures?
+A.
+In the linear data structure,
+the data is organized in a linear order in which elements are linked one after the other.
+
 What is Big-(O)-notation?
+A.
+Big O notation is the language we use for talking about how long an algorithm takes to run.
 Outlined different kind of sorting algorithm with time complexity?
+A.
+A sorting algorithm is an algorithm that puts elements of a list in a certain order.
+The most frequently used orders are numerical order and lexicographical order.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
